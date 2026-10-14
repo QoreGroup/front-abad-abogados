@@ -526,11 +526,12 @@ p {
   height: 100%;
   object-fit: cover;
 }
-.person-photo-full {
-  background: var(--white);
+.person-photo-yaneli img {
+  transform: scale(1.17);
 }
-.person-photo-full img {
-  object-fit: contain;
+.person-photo-close img {
+  transform: scale(1.12);
+  transform-origin: center top;
 }
 .person-body {
   padding: 25px 26px 28px;
@@ -1133,8 +1134,11 @@ p {
     min-height: 280px;
   }
 }
+<<<<<<< HEAD
 .person-photo-full img {
   object-fit: cover;
   object-position: center top;
 }
+>>>>>>> origin/develop
+=======
 >>>>>>> origin/develop
